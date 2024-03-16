@@ -177,4 +177,15 @@ transform-style: preserve-3d;
     {   
         font-size: small;
     }
+    .footer
+    {
+        display: grid;
+        font-size: smaller;
+    }
+  }
+  @media screen and (max-width: 404px) {
+    .footer
+    {
+        font-size: x-small;
+    }
   }

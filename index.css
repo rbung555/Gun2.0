@@ -169,3 +169,12 @@ transform-style: preserve-3d;
     font-size: 2.5rem;
 
 }  
+@media screen and (max-width: 534px) {
+    .header img{
+        display: none;
+    }
+    .header .name1
+    {   
+        font-size: small;
+    }
+  }
